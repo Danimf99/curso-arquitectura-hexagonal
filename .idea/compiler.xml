@@ -8,12 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="product-api" />
         <module name="ejercicio-02" />
+        <module name="ejercicio-03" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="arq-hexagonal-crud-03-04" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="arq-hexagonal-crud-03-04" options="-parameters" />
       <module name="ejercicio-02" options="-parameters" />
+      <module name="ejercicio-03" options="-parameters" />
       <module name="product-api" options="-parameters" />
     </option>
   </component>

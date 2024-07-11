@@ -24,6 +24,12 @@ public class Order {
         this.status = status;
     }
 
+    public Order(long id, String status, LocalDateTime now) {
+        this.orderId = id;
+        this.creationDate = now;
+        this.status = status;
+    }
+
     public void updateStatus(String status) {
         this.status = status;
     }
